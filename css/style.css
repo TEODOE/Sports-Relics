@@ -1,0 +1,1073 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.1em;
+    height: 100%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Utilities Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+section {
+    background: url(/img/slider_baseball_background.jpg) no-repeat center center/cover;
+    background-size: auto;
+    color: rgba(255, 255, 255, 0.99);
+}
+
+#title {
+    font-size: 4.5rem;
+    text-emphasis: emphasis;
+    text-decoration: double;
+    margin-top: 67px;  
+    margin-bottom: 75px;
+    text-align: center;
+    height: 197px;
+    width: 100%;
+    background: url('/img/baseball_stadium.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 1px 25px 1px rgb(255,0,0);
+    -moz-box-shadow: 0px 1px 25px 1px rgb(255,0,0);
+    box-shadow: 0px 1px 25px 1px rgb(255,0,0);
+}
+
+#title h1 {
+    padding-top: 85px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 197px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+.text-primary {
+    color: #ff0000;
+}
+
+#e-green {
+    color: rgba(0, 116, 10, 0.99);
+    text-decoration: 1px #000 solid;
+    font-weight: 600;
+}
+
+#p-red {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.lead {
+    font-size: 2rem;
+}
+
+.bg-lead {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(78, 78, 78, 0.1);
+    border-radius: 1%;
+    height: 300px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    -webkit-box-shadow: -9px -9px 9px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -9px -9px 9px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: -9px -9px 9px -3px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    height: 70px;
+    width: 250px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgba(0, 255, 13, 0.5);
+    padding: 25px 20px;
+    border: 1px solid rgba(77, 76, 76, 0.4);
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-box-shadow: -7px -7px 6px -3.5px rgba(0,0,0,0.4);
+    -moz-box-shadow: -7px -7px 6px -3.5px rgba(0,0,0,0.4);
+    box-shadow: -7px -7px 6px -3.5px rgba(0,0,0,0.4);
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.75);
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: rgb(255, 0, 0);
+    color: #333;
+}
+
+.bg-primary-1 {
+    background: rgba(27, 133, 0, 0.75);
+}
+
+.bg-blue {
+    background: rgba(0, 0, 255, 0.75);
+}
+
+.bg-green {
+    background-color: rgba(27, 133, 0, 0.75);
+}
+
+.bg-orange {
+    background: rgba(255, 94, 0, 0.85);
+}
+
+.bg-footer {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: .99; */
+    overflow: hidden;
+}
+
+.bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+/* Padding -----------------------------------------------------------------------*/
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+/* NavBar ------------------------------------------------------------------------*/
+#navbar {
+    background-color: rgba(27, 133, 0, 0.75);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.3);
+    -moz-box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.3);
+    box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.3);
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-left: 1px solid rgb(3, 255, 66);
+    border-right: 1px solid rgb(3, 255, 66);
+}
+
+
+
+/* Showcase ----------------------------------------------------------------------*/
+#showcase {
+    /* height: 880px; */
+    height: 100vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    /* margin-bottom: 138px; */
+    /* margin-bottom: 57px; */
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    padding-top: 1px;
+    /* line-height: 1.2em; */
+    letter-spacing: .75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    /* line-height: 1.7em; */
+    font-family: monospace;
+}
+
+#showcase .showcase-content a {
+    margin-top: 100px;
+}
+
+/* Home-Info ---------------------------------------------------------------------*/
+#home-info {
+    height: 450px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.95);
+}
+
+#home-info .info-img {
+    display: block;
+    float: left;
+    width: 50%;
+    background: url('/img/audience-clipart-silhouette-15.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-img img {
+    width: 200px;
+    margin: 70px 55px;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+} 
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* Features ----------------------------------------------------------------------*/
+.box {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-1 img {
+    width: 200px;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.6);
+    border: #444 1px solid;
+}
+
+.box-1 h3 {
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.box-1 p {
+    padding-bottom: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.box-1 a:hover {
+    color: #ff0000;
+}
+
+.box-2 img {
+    width: 350px;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.75);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.75);
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.75);
+    border: #333 1px solid;
+}
+
+.box-2 h3 {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.box-2 p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.box-2 a {
+    color: #fff;
+}
+
+.box-2 a:hover {
+    color: #ff0000;
+}
+
+.box-3 img {
+    width: 200px;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    border: #333 1px solid;
+}
+
+.box-3 h3 {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.box-3 p {
+    padding-bottom: 3px;
+    color: #fff;
+}
+
+.box-3 a {
+    color: #fff;
+}
+
+.box-3 a:hover {
+    color: #000000;
+}
+
+.box-4 img {
+    width: 200px;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0, 0.6);
+    border: #333 1px solid;
+}
+
+.box-4 h3 {
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.box-4 p {
+    padding-bottom: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.box-4 a {
+    color: rgb(0, 0, 0);
+}
+
+.box-4 a:hover {
+    color: #ffffff;
+}
+
+/* About Info -------------------------------------------------------------------- */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block; /* display as block to use margin: auto; inline display is default */
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials -------------------------------------------------------------------*/
+#testimonials {
+    height: 100%;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+    
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Form -------------------------------------------------------------------*/
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+} 
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+/* BASEBALL PAGE ------------------------------------------------------------------*/
+/* Baseball Page Navbar */
+.navbar-bb {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(255, 0, 0) 83.3%, rgb(255, 255, 255) 16%);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 25px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 2px 25px 5px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 25px 5px rgba(0,0,0,.5);
+}
+
+.navbar-bb a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-bb h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar-bb ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar-bb ul li {
+    float: left;
+}
+
+.navbar-bb ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-bb ul li a:hover, 
+.navbar-bb ul li a.current {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.main-bb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#title-bb {
+    font-size: 4.5rem;
+    text-emphasis: emphasis;
+    text-decoration: double;
+    margin-top: 57px;  
+    margin-bottom: 75px;
+    text-align: center;
+    height: 197px;
+    width: 100%;
+    background: url('/img/baseball_stadium.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+    -moz-box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+    box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+}
+
+#title-bb h1 {
+    padding-top: 85px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 197px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+.container-1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.item {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: rgba(0, 0, 0, 0.5) solid 2px;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+}
+
+.item img {
+    width: 175px;
+    height: 225px;
+    margin: auto;
+    padding: auto;
+    border: #000 solid 1px;
+}
+
+.item img:hover {
+    transform: scale(2);
+}
+
+/* Basketball Page ----------------------------------------------------------------*/
+.bball-main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+/* Basketball NavBar */
+#bball-navbar {
+    background: rgba(0, 0, 255, 0.75);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.5);
+    box-shadow: -10px 5px 5px 0px rgba(0,0,0, 0.5);
+    background-image: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 83.3%, rgb(255, 255, 255) 16%);
+}
+
+#bball-navbar a {
+    color: rgb(255, 255, 255);
+}
+
+#bball-navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#bball-navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#bball-navbar ul li {
+    float: left;
+}
+
+#bball-navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#bball-navbar ul li a:hover, 
+#bball-navbar ul li a.current {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-left: 1px solid rgb(3, 255, 66);
+    border-right: 1px solid rgb(3, 255, 66);
+}
+
+.container-1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.bball-item {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: rgba(0, 0, 0, 0.5) solid 2px;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+}
+
+.bball-item img {
+    width: 175px;
+    height: 225px;
+    margin: auto;
+    padding: auto;
+    border: rgba(0, 0, 0,0.95) solid 1px;
+}
+
+.bball-item img:hover {
+    transform: scale(2);
+}
+
+#bball-title {
+    font-size: 4.5rem;
+    text-emphasis: emphasis;
+    text-decoration: double;
+    margin-top: 57px; 
+    margin-bottom: 75px;
+    text-align: center;
+    height: 197px;
+    width: 100%;
+    background: url('/img/basketball-generic.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 2px 25px 1px rgb(0, 0, 255);
+    -moz-box-shadow: 0px 2px 25px 1px rgb(0, 0, 255);
+    box-shadow: 0px 2px 25px 1px rgb(0, 0, 255);
+}
+
+#bball-title h1 {
+    padding-top: 85px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 197px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Football Page ----------------------------------------------------------------*/
+/* Foottball NavBar */
+.navbar-fb {
+    background: rgba(0, 255, 0, 0.75);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    -webkit-box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    background-image: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(0, 255, 0) 83.3%, rgb(255, 255, 255) 16%);
+}
+
+.navbar-fb a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-fb h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar-fb ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar-fb ul li {
+    float: left;
+}
+
+.navbar-fb ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-fb ul li a:hover, 
+.navbar-fb ul li a.current {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-left: 1px solid rgb(3, 255, 66);
+    border-right: 1px solid rgb(3, 255, 66);
+}
+
+.container-1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.fb-main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.fb-title {
+    font-size: 4.5rem;
+    text-emphasis: emphasis;
+    text-decoration: double;
+    margin-top: 57px; 
+    margin-bottom: 75px;
+    text-align: center;
+    height: 197px;
+    width: 100%;
+    background: url('/img/football3.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+    -moz-box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+    box-shadow: 0px 2px 30px 1px rgb(0,0,0);
+}
+
+.fb-title h1 {
+    padding-top: 85px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.fb-item {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: rgba(0, 0, 0, 0.5) solid 2px;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+}
+
+.fb-item img {
+    width: 175px;
+    height: 225px;
+    margin: auto;
+    padding: auto;
+    border: rgba(0, 0, 0,0.95) solid 1px;
+}
+
+.fb-item img:hover {
+    transform: scale(2);
+}
+
+
+/* Hockey Page */
+.h-navbar {
+    background: rgba(0, 255, 0, 0.75);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    -webkit-box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    box-shadow: 10px 5px 5px 0px rgba(0,0,0, 0.5);
+    background-image: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(216, 105, 1) 83.3%, rgb(255, 255, 255) 16%);
+}
+
+.h-navbar a {
+    color: rgb(255, 255, 255);
+}
+
+.h-navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.h-navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.h-navbar ul li {
+    float: left;
+}
+
+.h-navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.h-navbar ul li a:hover, 
+.h-navbar ul li a.current {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.container-1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.h-main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.h-title {
+    font-size: 4.5rem;
+    text-emphasis: emphasis;
+    text-decoration: double;
+    margin-top: 57px; 
+    margin-bottom: 75px;
+    text-align: center;
+    height: 197px;
+    width: 100%;
+    background: url('/img/hockey5.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid rgba(216, 105, 1,.25);
+    -webkit-box-shadow: 0px 2px 30px 1px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 2px 30px 1px rgb(0, 0, 0);
+    box-shadow: 0px 2px 30px 1px rgb(0, 0, 0);
+}
+
+.h-title h1 {
+    padding-top: 85px;
+    height: 200px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    background: rgba(0, 0, 0, 0.43);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.h-item {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: rgba(0, 0, 0, 0.5) solid 2px;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.99);
+}
+
+.h-item img {
+    width: 175px;
+    height: 225px;
+    margin: auto;
+    padding: auto;
+    border: rgba(0, 0, 0,0.95) solid 1px;
+}
+
+.h-item img:hover {
+    transform: scale(2);
+}
+
+
+/* Footer -------------------------------------------------------------------------*/
+#main-footer {
+    text-align: center;
+    background: rgba(27, 133, 0, 0.25);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#main-footer-bb {
+    text-align: center;
+    background-image: linear-gradient(-105deg, rgba(0, 0, 0, 0.99) 0%, rgba(255, 0, 0, 0.99) 83.3%, rgb(255, 255, 255) 16%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 10px 20px 0 0;
+    height: 70px;
+    -webkit-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+}
+
+#main-footer-bb-1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 10px 20px 0 0;
+    height: 60px;
+    border-top: rgba(255, 255, 255, 0.2) solid 1px;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#main-footer-bball {
+    text-align: center;
+    background-image: linear-gradient(-105deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 255, 0.99) 83.3%, rgb(255, 255, 255) 16%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 10px 20px 0 0;
+    height: 70px;
+    -webkit-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+}
+
+#main-footer-fb {
+    text-align: center;
+    background-image: linear-gradient(-105deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 255, 0, 0.99) 83.3%, rgb(255, 255, 255) 16%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 10px 20px 0 0;
+    height: 70px;
+    -webkit-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+}
+
+#main-footer-h {
+    text-align: center;
+    background-image: linear-gradient(-105deg, rgba(0, 0, 0, 0.99) 0%, rgb(216, 105, 1) 83.3%, rgb(255, 255, 255) 16%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 10px 20px 0 0;
+    height: 70px;
+    -webkit-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+    box-shadow: 0px -2px 25px 1px rgba(0,0,0,1);
+}
